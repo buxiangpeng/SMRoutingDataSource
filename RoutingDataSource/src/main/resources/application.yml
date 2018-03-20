@@ -1,0 +1,21 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /resource
+  tomcat:
+    accesslog:
+      enabled: true
+      directory: D:/logs
+      
+datasource: 
+  read: 
+      url: jdbc:mysql://192.168.145.160:3306/bxptest1?useSSL=false
+      username: root
+      password: 123456
+      driverClass: com.mysql.jdbc.Driver
+  write: 
+      url: jdbc:mysql://192.168.145.160:3306/bxptest2?useSSL=false
+      username: root
+      password: 123456
+      driverClass: com.mysql.jdbc.Driver
+
