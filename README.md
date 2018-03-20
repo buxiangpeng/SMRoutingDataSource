@@ -1,0 +1,2 @@
+# SMRoutingDataSource
+使用AbstractRoutingDataSource和Aop来动态切换数据源达到读写分离的目的
